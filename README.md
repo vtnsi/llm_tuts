@@ -21,7 +21,12 @@ Jupyter notebooks are provided. The user will be able to load an pre-trained LLM
 4. Summarization_task.ipynb: This notebook demonstrates on how to test LLMs for Summarization task. 
 
 
-**Acknowledgements**
-***
+## Installation and Quickstart
 
-This material is based upon work supported, in whole or in part, by the U.S. Department of Defense through the Director Operational Test and Evaluation (DOT&E) under Contract HQ003419D0003. The Systems Engineering Research Center (SERC) is a federally funded University Affiliated Research Center managed by Stevens Institute of Technology. Any views, opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the United States Department of Defense nor DOT&E.
+Use the package manager [conda](https://anaconda.org/conda-forge/stable-baselines3) to install the environment dependencies. Pip will be used to install additional dependencies within the individual notebooks.
+
+```bash
+conda env create -f environment.yml
+conda activate llm
+jupyter lab
+```
